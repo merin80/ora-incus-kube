@@ -1,0 +1,10 @@
+---
+timezone: "Europe/Berlin"
+github_username: "merin80"
+coredns_addr: "10.43.0.10"
+kube_vip_addr: "10.82.151.30"
+cluster_cidr: "10.42.0.0/16"
+service_cidr: "10.43.0.0/16"
+node_cidr: "10.82.151.0/24"
+cluster_cidr_v6: "fd78:c889:49fb:e0::/60"
+service_cidr_v6: "fd78:c889:47fb:e0::/112"

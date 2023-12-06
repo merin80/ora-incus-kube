@@ -1,0 +1,16 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        kube-master1:
+          ansible_user: kube-deploy
+          ansible_host: 10.82.151.30
+    worker:
+      hosts:
+        kube-worker1:
+          ansible_user: kube-deploy
+          ansible_host: 10.82.151.146
+        kube-worker2:
+          ansible_user: kube-deploy
+          ansible_host: 10.82.151.186
